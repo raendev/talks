@@ -2,8 +2,8 @@
 :root {
   --fg: black;
   --bg: white;
-  --link: #66AEE2;
   --em: #508CA4;
+  --shadow: #508CA430;
   --font-weight: 600;
 }
 img {
@@ -11,7 +11,15 @@ img {
   max-height: 100%;
 }
 a {
-  color: var(--link);
+  color: var(--em);
+  text-decoration: none;
+  border-bottom: 1px solid var(--shadow);
+  border-radius: 1px;
+  transition: border-bottom-color 100ms;
+}
+a:focus,
+a:hover {
+  border-bottom-color: var(--em);
 }
 kbd {
   background: white;
@@ -35,9 +43,6 @@ kbd {
   font-weight: var(--font-weight);
   padding: 1rem 4rem;
   text-align: center;
-}
-.remark-slide-content ul {
-  list-style: inside;
 }
 .remark-slide-content h1,
 .remark-slide-content h2,
@@ -91,8 +96,8 @@ kbd {
   :root {
     --fg: white;
     --bg: black;
-    --link: #66AEE2;
     --em: #508CA4;
+    --shadow: #508CA460;
     --font-weight: 200;
   }
 }
