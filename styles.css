@@ -96,8 +96,8 @@ kbd {
   :root {
     --fg: white;
     --bg: black;
-    --em: #508CA4;
-    --shadow: #508CA460;
-    --font-weight: 200;
+    --em: #90CCE4;
+    --shadow: #364C55;
+    --font-weight: 600;
   }
 }
