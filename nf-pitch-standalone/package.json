@@ -4,7 +4,7 @@
   "homepage": "https://raen.dev/talks",
   "scripts": {
     "start": "serve .",
-    "build": "echo \"Make sure you're running 'yarn start' in a different terminal\" && decktape remark http://localhost:3000/ ahalabs-pitch.pdf"
+    "build": "echo \"Run `npx serve .` from root dir in a different terminal\" && decktape remark http://localhost:3000/nf-pitch-standalone/ ahalabs-pitch.pdf"
   },
   "devDependencies": {
     "decktape": "^3.4.1",
