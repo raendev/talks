@@ -8,7 +8,7 @@
 }
 img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 90vh;
 }
 a {
   color: var(--em);
@@ -41,7 +41,7 @@ kbd {
   font-family: Inter,sans-serif;
   font-size: calc(.85em + 2vw);
   font-weight: var(--font-weight);
-  padding: 1rem 4rem;
+  padding: 0;
   text-align: center;
 }
 .remark-slide-content h1,
